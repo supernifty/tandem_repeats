@@ -2,7 +2,9 @@
 Finds exact repeats in a fasta file.
 
 ## Usage
+```
 python main.py --repeat 2 --min 16 < fastafile 2>log >result.csv
+```
 
 ## Command line parameters
 * *repeat*: length of short repeat. e.g. 1 will find mononucleotide repeats, 2 will find dinucleotide repeats
